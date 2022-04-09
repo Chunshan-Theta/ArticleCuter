@@ -76,4 +76,4 @@ def interface_convolution(model, sent: str, threshold=0.5, min_windows_size=3, m
 
 model = load_model()
 text = "其實你很棒知道自己因為害怕別人的眼光而造就自己體貼的個性或許這樣的性格也是讓你更懂得應對進退至於緊張的狀況下次感受到大家的注目試著先閉上眼睛深呼吸告訴自己沒問題然後再張開眼睛開始動作也許就能緩解那種緊張心情喔"
-print(interface_convolution(model, text, threshold=0.2, return_score=True))
+print(interface_convolution(model, text, threshold=0.3, return_score=True))
